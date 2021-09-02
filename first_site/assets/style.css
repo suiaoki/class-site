@@ -1,0 +1,36 @@
+html {
+  background-image: url("../img/pinkbun.jpeg");
+}
+
+p {
+  color: green;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  width: 100px;
+}
+
+#special {
+  color: white;
+  background: blue;
+  padding: 50px;
+}
+
+.blue-text {
+  color: blue;
+  border: 5px dotted navy;
+  border-radius: 20%;
+  padding: 40px;
+  margin: 50px;
+  width: 500px;
+}
+
+.pinkbun {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}

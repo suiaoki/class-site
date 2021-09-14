@@ -15,6 +15,10 @@ body {
   font-family: monospace;
 }
 
+ul {
+  list-style: none;
+}
+
 .centerbox {
   position: absolute;
   left: 50%;

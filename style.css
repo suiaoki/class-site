@@ -1,13 +1,31 @@
 body {
-  background-color: pink;
+  background-color: teal;
 }
 
 h1 {
   color: white;
-  background-color: red;
+  background-color: black;
   text-align: center;
 }
+body {
+  color: white;
+  font-family: monospace;
+}
 ul {
+  background-color: white;
+  width: 500px;
   list-style: none;
   text-align: center;
+  font-size: 20px;
+  box-shadow: 7px 5px 10px black;
+
+}
+.centerbox {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+p {
+  text-shadow: 3px 3px 3px red;
 }

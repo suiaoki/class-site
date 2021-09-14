@@ -1,0 +1,19 @@
+img {
+  max-width: 100%;
+}
+
+p {
+  font-size: 20px;
+  color: teal;
+  font-weight: bold;
+  text-decoration: underline;
+  font-style: normal;
+  text-align: left;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.rotate {
+  transform: rotate(-5deg);
+  color: orange;
+  display: inline-block;
+}

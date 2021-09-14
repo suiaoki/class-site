@@ -1,0 +1,37 @@
+html {
+background: aquamarine;
+}
+img {
+  max-width: 300px;
+  padding: 30px;
+  background-color: white;
+}
+
+.back {
+  background: aquamarine;
+}
+
+body {
+  font-size: 14px;
+  font-family: cursive;
+}
+
+.centerbox {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.centerbottom {
+  color: red;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  transform: translateY(90%);
+}
+
+.imgborder {
+  max-width: 500px;
+  padding: 50px;
+  background-color: white;
+}

@@ -1,0 +1,29 @@
+html {
+background: mistyrose;
+}
+
+img {
+  max-width: 100%;
+}
+
+.pinkback {
+  background: pink;
+}
+
+body {
+  font-size: 20px;
+}
+
+.centerbox {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.centerbottom {
+  color: red;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  transform: translateY(90%);
+}

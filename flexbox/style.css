@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container1 {
+  background:rgb(208, 254, 255);
+  display:flex;
+  height:20%;
+  justify-content:center;
+  gap:20px;
+  padding:20px;
+}
+
+.menubox{
+  background: rgb(0, 140, 255);
+  width:100%;
+}
+
+.container2 {
+  background: rgb(156, 211, 217);
+  display:flex;
+  height:80%;
+}
+
+.sidebar1 {
+background:rgb(255, 237, 243);
+width:100%;
+display:flex;
+gap:20px;
+padding:20px;
+justify-content: center;
+align-items: center;
+}
+
+.centersquare {
+  background:rgb(255, 50, 127);
+  width:100px;
+  height:100px;
+}
+
+.sidebar2 {
+  background:rgb(255, 245, 209);
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  gap:20px;
+  padding:20px;
+
+}
+
+.col-item {
+  background:rgb(233, 45, 255);
+  width:100%;
+  height:100px;
+}

@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background: mistyrose;
+/*  animation-name:sunset;
+  animation-duration:2s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
+  animation-timing-function: linear;*/
+  animation:sunset 2s infinite alternate linear;
+}
+
+.box {
+  width:200px;
+  height:200px;
+  background: teal;
+  position: fixed;
+  top:40%;
+  left:43%;
+/*  animation:spin 2s infinite linear;*/
+}
+
+.box:hover {
+  animation:spin 2s infinite linear;
+}
+
+@keyframes sunset {
+  0% {
+    background:rgb(255, 176, 71);
+  }
+  100% {
+    background:rgb(66,50,96);
+  }
+}
+
+@keyframes spin {
+  0%{
+transform:rotate(0deg) scale(1);
+  }
+  50% {
+    transform:rotate(180deg) scale(2);
+  }
+  100%{
+transform:rotate(360deg) scale(1);
+  }
+}

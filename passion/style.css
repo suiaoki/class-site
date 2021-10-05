@@ -1,9 +1,11 @@
 html {
-background: mistyrose;
+background: rgb(255, 247, 232);
 }
 
 img {
+  border: 10px blue;
   max-width: 100%;
+  z-index:50;
 }
 
 .pinkback {
@@ -13,10 +15,15 @@ img {
 body {
   font-size: 20px;
   font-family: monospace;
+  margin:0;
 }
 
 ul {
   list-style: none;
+}
+
+.backgroundwhite{
+  background: white;
 }
 
 .centerbox {
@@ -31,4 +38,225 @@ ul {
   left: 50%;
   transform: translateX(-50%);
   transform: translateY(90%);
+}
+
+.titleheader {
+  background: rgb(255, 0, 145);
+  width: 100%;
+  height: 200px;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  padding:20px;
+}
+
+.tealwall{
+background: rgb(212, 251, 228);
+height:100%;
+position:fixed;
+left:150px;
+right:150px;
+z-index:10;
+}
+
+.yellowwall{
+background: rgb(246, 250, 180);
+height:100%;
+width:150px;
+position:fixed;
+right:0px;
+z-index:10;
+}
+
+.pinkwall{
+  background:mistyrose;
+  height:100%;
+  width:150px;
+  position:fixed;
+  left:0px;
+  z-index:10;
+}
+
+.trapezoid {
+  position: fixed;
+  bottom: 0;
+  right:0;
+  left:0;
+  border-bottom: 100px solid rgb(217, 195, 158);
+	border-left: 150px solid transparent;
+	border-right:150px solid transparent;
+	height: 0;
+	width: 100%vh;
+  z-index:20;
+}
+
+.windowframe{
+  background:white;
+  height:300px;
+  width:620px;
+  display: flex;
+  flex-wrap: wrap;
+  gap:20px;
+  padding:20px;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top:100px;
+  left: 400px;
+  z-index: 40;
+}
+
+.windowpanes {
+background:white;
+height:300px;
+width:300px;
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: center;
+align-items: center;
+padding:0;
+margin:0;
+border:0;
+
+}
+
+.windowglass {
+  background: rgb(140, 217, 255);
+  height: 130px;
+  width:130px;
+  padding:0;
+  margin:0;
+  border:0;
+}
+
+.photo1 {
+  display: flex;
+  background: rgb(0, 255, 79);
+  width:260px;
+  height:180px;
+  margin: 20px blue;
+  position: fixed;
+  top:150px;
+  left: 300px;
+  z-index:40;
+}
+
+.photo2 {
+  display: flex;
+  background: rgb(0, 255, 79);
+  width:300px;
+  height:370px;
+  margin: 20px blue;
+  position: fixed;
+  top:200px;
+  right: 300px;
+  z-index:40;
+}
+
+.pinkbun {
+  position: fixed;
+  bottom:20px;
+  left:200px
+}
+
+.pinkbun:hover {
+  cursor:pointer;
+}
+.speechbubble {
+  background: rgb(254, 183, 202);
+  width:200px;
+  height:160px;
+  display:flex;
+  border-radius:50%;
+  opacity:0;
+  position:absolute;
+  justify-content: center;
+  align-items: center;
+  top:-100px;
+  right:-200px;
+}
+
+.pinkbun:hover .speechbubble {
+  opacity:1;
+}
+
+.rightarrow {
+  position:fixed;
+  right:50px;
+  top:300px;
+  width:30px;
+  height:20px;
+  background:rgb(0, 10, 255);
+  box-shadow:2px 2px 3px black;
+  border-radius: 5px;
+  color:white;
+  z-index:60;
+}
+
+.leftarrow {
+  position:fixed;
+  left:50px;
+  top:300px;
+  width:30px;
+  height:20px;
+  background:rgb(0, 10, 255);
+  box-shadow:2px 2px 3px black;
+  border-radius: 5px;
+  color:white;
+  z-index:60;
+}
+
+.westpinkwall {
+  background: mistyrose;
+  height:100%;
+  position:fixed;
+  left:150px;
+  right:150px;
+  z-index:10;
+}
+
+.westbluewall{
+  background:rgb(196, 241, 255);
+  height:100%;
+  width:150px;
+  position:fixed;
+  left:0px;
+  z-index:10;
+}
+
+.westtealwall{
+background: rgb(212, 251, 228);
+height:100%;
+width:150px;
+position:fixed;
+right:0px;
+z-index:10;
+}
+
+.eastyellowwall {
+  background: rgb(246, 250, 180);
+  height:100%;
+  position:fixed;
+  left:150px;
+  right:150px;
+  z-index:10;
+}
+
+.easttealwall{
+  background:rgb(212, 251, 228);
+  height:100%;
+  width:150px;
+  position:fixed;
+  left:0px;
+  z-index:10;
+}
+
+.eastbluewall {
+  background: rgb(196, 241, 255);
+  height:100%;
+  width:150px;
+  position:fixed;
+  right:0px;
+  z-index:10;
 }
